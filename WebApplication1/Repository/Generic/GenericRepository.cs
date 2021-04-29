@@ -17,8 +17,6 @@ namespace WebApplication1.Repository.Generic
             _context = context;
             dataset = _context.Set<T>();
         }
-        
-        //-----------------------------------------------------------------------------------------------
 
         public List<T> FindAll()
         {
@@ -47,29 +45,28 @@ namespace WebApplication1.Repository.Generic
         public T Update(T item)
         {
             var result = dataset.SingleOrDefault(p => p.Id.Equals(item.Id));
-
-                if (result != null)
+            if (result != null)
+            {
+                try
                 {
-                    try
-                    {
-                        _context.Entry(result).CurrentValues.SetValues(item);
-                        _context.SaveChanges();
-                        return result;
-                    }
-                        catch (Exception)
-                    {
-                        throw;
-                    }
-                } else
-                {
-                    return null;
+                    _context.Entry(result).CurrentValues.SetValues(item);
+                    _context.SaveChanges();
+                    return result;
                 }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+            else
+            {
+                return null;
+            }
         }
 
         public void Delete(long id)
         {
             var result = dataset.SingleOrDefault(p => p.Id.Equals(id));
-
             if (result != null)
             {
                 try
@@ -83,9 +80,11 @@ namespace WebApplication1.Repository.Generic
                 }
             }
         }
+
         public bool Exists(long id)
         {
             return dataset.Any(p => p.Id.Equals(id));
         }
     }
 }
+

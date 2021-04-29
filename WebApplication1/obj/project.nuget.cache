@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fn4XX5xzuQ6pfN4Jvs6NBoiFpmnYPNg685VhCZA/t0E/bBt9471KGdrASTRMHWYUsasxQscCGPKwKA014sCD7w==",
+  "dgSpecHash": "jbXfTqs4eXRE+Pobhcj1d3S8DlJMoNPxnP2mqankHPG9c6KmxXUB6825TvfCKo3//oIn04hHchy0Mw9mKL1ZkA==",
   "success": true,
   "projectFilePath": "C:\\Users\\junin\\source\\repos\\WebApplication1\\WebApplication1\\RestAPI_Books.csproj",
   "expectedPackageFiles": [
@@ -66,10 +66,10 @@
     "C:\\Users\\junin\\.nuget\\packages\\serilog.sinks.console\\3.1.1\\serilog.sinks.console.3.1.1.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\serilog.sinks.file\\4.1.0\\serilog.sinks.file.4.1.0.nupkg.sha512",
-    "C:\\Users\\junin\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\junin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\junin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\junin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512",
+    "C:\\Users\\junin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.3\\swashbuckle.aspnetcore.6.1.3.nupkg.sha512",
+    "C:\\Users\\junin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.1.3\\swashbuckle.aspnetcore.swagger.6.1.3.nupkg.sha512",
+    "C:\\Users\\junin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.1.3\\swashbuckle.aspnetcore.swaggergen.6.1.3.nupkg.sha512",
+    "C:\\Users\\junin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.1.3\\swashbuckle.aspnetcore.swaggerui.6.1.3.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
     "C:\\Users\\junin\\.nuget\\packages\\system.collections\\4.0.11\\system.collections.4.0.11.nupkg.sha512",
